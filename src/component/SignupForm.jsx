@@ -47,8 +47,8 @@ function SignupForm({setIsLoggedIn}){
                 <button onclick={() => setAccountType("student")}
                     className={`${
                     accountType === "student"
-                        ? "bg-richblack-900 text-richblack-5"
-                        : "bg-transparent text-richblack-200 "
+                        ? "bg-black-900 text-black-5"
+                        : "bg-transparent text-black-200 "
                     } py-2 px-5 rounded-full transition-all`}
                     >
                     Student
@@ -56,8 +56,8 @@ function SignupForm({setIsLoggedIn}){
                 <button  onclick={() => setAccountType("instructor")}
                     className={`${
                         accountType === "instructor"
-                        ? "bg-richblack-900 text-richblack-5"
-                        : "bg-transparent text-richblack-200 "
+                        ? "bg-black-900 text-black-5"
+                        : "bg-transparent text-black-200 "
                     } py-2 px-5 rounded-full transition-all`}             
                     >
                     Instructor
